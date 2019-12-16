@@ -3,6 +3,10 @@ body {
     background-size: cover;
 }
 
+.container {
+    min-height: 100vh;
+}
+
 .footer {
     background: #666666;
     border-top: 8px solid teal;
