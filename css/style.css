@@ -1,11 +1,29 @@
 body {
     background-image: url("../images/beige-tiles.png");
-    background-size: cover;
 }
 
 .container {
     min-height: 100vh;
 }
+
+.bg-dark {
+    background: #ffffff !important;
+}
+
+.navbar-brand {
+    background: teal;
+    font-size: 40px;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+}
+
+.navbar-dark {
+   padding: 0;
+}
+
+nav .navbar-nav li a{
+    color: #777777 !important;
+    }
 
 .footer {
     background: #666666;
