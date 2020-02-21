@@ -18,14 +18,14 @@
     <!-- Navbar -->
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <h1 class="navbar-brand text-center"><strong>Lee Lawler</strong></h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a href="#landing"><img src="images/logo.png" style="height: 60px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link active" href="#about">Home</a>
+                <li class="nav-item"><a class="nav-link active" href="#landing">Home</a>
                 <li class="nav-item"><a class="nav-link active" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link active" href="#contact">Contact</a></li>
             </div>
@@ -33,38 +33,22 @@
     </nav>
 
 
-    <!-- About Section -->
+    <!-- Landing Section -->
 
-    <div class="my-5 content card" id="about">
-        <div class="card-body col-xs-12">
-            <h1 style="color: teal;"><strong>About Me</strong></h1>
-            <hr>
-            <div class="row">
-                <p class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis dolor id
-                    mi auctor, vel blandit lorem semper. Aliquam varius magna vel justo imperdiet rhoncus. In
-                    condimentum nunc nec pretium ornare. Nullam nec eleifend arcu, nec vestibulum sem. Integer fringilla
-                    ornare purus venenatis pretium. Pellentesque rhoncus laoreet nibh sed tempus. Nunc nec risus mi. Sed
-                    et neque quis justo ornare venenatis. Ut eget ullamcorper ipsum, sit amet vestibulum nibh. Nulla
-                    tincidunt felis quis diam tincidunt, eu hendrerit mauris convallis. Etiam sem arcu, egestas at
-                    sagittis ut, tincidunt at dolor. Mauris laoreet maximus mi, a dapibus arcu facilisis sit amet. Nulla
-                    facilisi.
-
-                    Duis nec elit dolor. Praesent at mi in leo suscipit rhoncus. Sed vel volutpat felis, sit amet
-                    hendrerit mauris. Donec fermentum non massa a viverra. Pellentesque diam augue, congue imperdiet
-                    pharetra et, rutrum vitae lacus. Curabitur tincidunt commodo eros, eu fermentum nisl ornare
-                    vestibulum. Donec feugiat ante non turpis congue, non ultrices urna blandit. Vestibulum diam ex,
-                    egestas a risus non, ultrices commodo ligula. Praesent in lacus a tellus posuere lobortis ac sed
-                    sapien. Phasellus non metus viverra, imperdiet quam non, finibus velit. Integer tempus lorem vitae
-                    felis laoreet dignissim.
-                </p>
+    <div class="container-fluid" id="landing">
+        <div class="text-center">
+            <div id="heading-wrapper">
+                <h1 style="color: white;"><strong>Lee Lawler</strong></h1>
+                <h3 style="color: white;">Full-Stack Developer</h3>
+                <a href="#projects"><button class="btn btn-primary btn-lg" type="button">Projects</button></a>
             </div>
         </div>
     </div>
 
     <!-- Project Section -->
 
-    <div class="mt-5 content card" id="projects">
-        <div class="card-body col-md-12">
+    <div class="container-fluid" id="projects">
+        <div class="col-md-12">
             <h1 style="color: teal;"><strong>Projects</strong></h1>
             <hr>
             <div class="row">
@@ -109,8 +93,8 @@
 
     <!-- Contact Section -->
 
-    <div class="mt-5 content card" id="contact">
-        <div class="card-body col-md-12">
+    <div class="container-fluid" id="contact">
+        <div class="col-md-12">
             <h1 style="color: teal;"><strong>Contact</strong></h1>
             <hr>
             <form>
@@ -133,7 +117,7 @@
 
     <!-- Footer -->
 
-    <footer class="footer fixed-bottom">
+    <footer class="footer">
         <div class="footer-copyright text-center text-white py-3">
             Copyright ©
         </div>
