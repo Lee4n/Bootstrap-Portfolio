@@ -42,21 +42,15 @@ body {
 }
 
 #projects {
-    background: yellow;
+    background: linear-gradient(#14181B, white);
 }
 
 #contact {
-    background: green;
+    background: linear-gradient(white, gray);
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-p {
-    font-size: 20px;
-    color: #777777;
-    line-height: 37px;
 }
 
 label {
@@ -78,24 +72,17 @@ label {
 
 .row img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
-    overflow: hidden;
 }
 
 .img-banner {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     top: -80px;
-    background: teal;
+    background: red;
     color: white;
     padding: 15px;
     text-align: center;
-}
-
-.img-wrapper {
-    margin-bottom: 3rem;
-    margin-right: 3rem;
 }
 
 .navbar {
